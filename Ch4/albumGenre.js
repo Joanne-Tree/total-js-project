@@ -19,10 +19,9 @@ let count = 0;
 	document.getElementById("Album").innerHTML+=
 	bestAlbumsByGenre[count]+"<br>";
 	console.log("test");
-	for (let i=0; i<bestAlbumsByGenre[count].length;i++){
-		document.getElementById("Album").innerHTML+=
-		bestAlbumsByGenre[count][i];
+	bestAlbumsByGenre[count].forEach(element => document.getElementById("Album").innerHTML+=
+		element+"<br>");
 		console.log(bestAlbumsByGenre[count].length);
-	}count++;
+	count++;
 	}console.log("test2)");
 }
