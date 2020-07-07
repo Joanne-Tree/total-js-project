@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Guess the Word</title>
+</head>
+<body>
+	<script>
+		var guessedWord = prompt ("What word am I thinking of?");
+		while (guessedWord != "sandwich") { 
+		// as long as the guessed word is not sandwich
+			prompt ("No. That's not it. Try again.");
+		}
+
+            alert ("Congratulations! That's exactly right!"); 
+        // do this after exiting the loop
+</script>
+</body>
+</html>
+
+// Bug. if wrong answer given and marked as wrong, all future attempts are marked as wrong, even when correct answer is eventually given. Only works if correct answer given first time.
+
+		
