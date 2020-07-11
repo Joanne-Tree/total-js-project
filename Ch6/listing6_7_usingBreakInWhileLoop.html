@@ -5,14 +5,19 @@
 <body>
 	<script>
 		var guessedWord = prompt("What word am I thinking of?");
-		while (guessedWord != "sandwich") {
-			if (guessedWord =="") {break;} // exite the loop right away if user doesn't enter a value prompt
-			prompt ("No. That's not it. Try again.");
+		console.log(guessedWord);
+		while(guessedWord != "sandwich") {
+			if(guessedWord =="") {break;} // exite the loop right away if user doesn't enter a value prompt
+			console.log(guessedWord);
+			
+			guessedWord =prompt("No. That's not it. Try again.");
+			console.log(guessedWord);
 		}
-		alert ("Congratulations! That's exactly right!");
+		alert("Congratulations! That's exactly right!");
 	</script>
 </body>
 </html>
 
 //Bug. No answer or correct answer first  = correct answer alert. Wrong answer first causes all further attempts to be classed as wrong.
+// Bug fixed by updating prompt.
 

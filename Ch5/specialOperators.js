@@ -32,7 +32,7 @@ var businessName = "Harry's Watch Repair";
 console.log typeof businessName; // returns "string"
 
 //void operator
-<a href="javascript:void(0);"> This is a link, but it won't do anything </a>
+<a href="javascript:void(0);"> This is a link, but it won't do anything </a>;
 
 //combining operators
 a = a + 10;
