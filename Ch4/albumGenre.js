@@ -44,14 +44,14 @@ function album() {
     //with array for each loop
     bestAlbumsByGenre.forEach(genre => {
         genre.forEach(album => {
-            document.getElementById("albums").innerHTML += album + "<br>";
+            document.getElementById("album").innerHTML += album + "<br>";
         })
     });
 
     //with for loop
     for(i = 0; i < bestAlbumsByGenre.length; i++) {
         for(j = 0; j < bestAlbumsByGenre[i].length; j++) {
-            document.getElementById("albums2").innerHTML += bestAlbumsByGenre[i][j] + "<br>";
+            document.getElementById("album2").innerHTML += bestAlbumsByGenre[i][j] + "<br>";
         }
     }
 }
