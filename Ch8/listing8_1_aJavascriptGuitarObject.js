@@ -1,5 +1,5 @@
 var guitar = {
-	bodyColor: "black",
+	bodyColor: "black",  // These are key: "value" pairs
 	scratchPlateColor: "white",
 	numberOfStrings: 6,
 	brand: "Yamaha",
@@ -7,3 +7,5 @@ var guitar = {
 	strum: function() {...},
 	tune: function() {...}
 };
+
+document.write(guitar.brand);
