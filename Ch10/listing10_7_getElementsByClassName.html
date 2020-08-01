@@ -3,7 +3,7 @@
 	<title>Using getElementsByClassName</title>
 	<script>
 		function checkMath(result){
-			var userMath = document.getElementById("answer").value; // .value is null?
+			var userMath = document.getElementById("answer1").value; // .value is null?
 			var errors = document.getElementsByClassName("error");
 			if(parseInt(userMath) != parseInt(result)) {
 				errors[0].innerHTML = "That's wrong. You entered " 
@@ -15,10 +15,12 @@
 	</script>
 </head>
 <body>
-	<label for = "number1">4+ = </label><input type="text"
+	<label for = "number1">4+ = </label>
+	<input type="number"
 	id="answer1" value="">
-	<button id="submit" onclick="checkMath(4+1);">Check // something wrong here?
+	<button id="submit" onclick="checkMath(4+1);">Check
 	your math!</button>
+
 	<h1 class="error"></h1>
 </body>
 </html>
