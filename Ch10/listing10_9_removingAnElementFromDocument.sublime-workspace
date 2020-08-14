@@ -1,0 +1,263 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Joanne/Documents/CODING/dragon-generator-portfolio/src/dragonVariables.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_8_document_createElement_toGenerateTableFromArray.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_7_getElementsByClassName.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_9_removingAnElementFromDocument.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_6_getElementsByTagNameToSelectAndChangeElements.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_5_getElementByIdToSelectElements.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/innerHTML.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_1_htmlDocument.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_2_demoOfParentChildrenSiblingHtmlRelationships.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_3_displayingChildNodesOfTheSectionElement.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch10/listing10_4_firstChild_lastChild_toHighlightNavigationLinks.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/bestPracticeSandwich.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch9/listing9_1_propertiesOfNavigatorObjectNTheirValues.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_7_usingThisInsideAMethod.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch9/browserDetection.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch9/listing9_2_windowDotLocationPropertyWebPageBrowserWindowLoadingScript.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch9/listing9_3_changingWebPageBasedOnWindowWidth.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_1_aJavascriptGuitarObject.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch9/listing9_4_implementingBackButtonInWebApplication.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_10_usingObjectDotCreateToCreateObjectFromPrototype.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_9_modifyingAPrototypeObject.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_8_testingInheritance.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/willieNelson.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_6_callingAMethod.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_5_creatingAMethod.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_4_usingTheDeleteOperator.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_3_chairConfigurationScript.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_2_usingAnObjectConstructor.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/definingObjectsWithObjectLiterals.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch8/listing8_1_aJavascriptGuitarObject.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/js/lufftavern.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/addz.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/aFunctionWithNoName.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_1_addNumbersUsingFor...InLoop.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_15_returningValuesFromInnerFunction.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_13_recursiveFunctionWithTerminationNBaseConditions.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_14_declaringFunctionsWithinFunctions.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_12_recursiveFunctionSquareNumbersUntilOver1000000.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_11_fatallyFlawedRecursiveFunction.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_10_usingSelfExecutingAnonymousFunction.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_8_settingDefaultArgumentsInTheFunctionHead.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_9_argumentsObjectsToDefineFunction.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_7_settingDefaultArgumentValues.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_6_demonstrationOfArgumentsPassedByValue.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_5_referringToFunctionsInsideArguments.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_4_returnResultOfExpression.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_3_returnValueFromFunction.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/functionGetTheDate.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/listing7_2_functionAddingNumbersFromArrays.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch7/definingFunctions.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_7_usingBreakInWhileLoop.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/specialOperators.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/assignmentOperators.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/listing5_1_UsingArithmeticOperators.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/codePlayground/webpageAttempt.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/albumGenre.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/albumGenre.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_8_countingAndUsingContinueToDisplayEvenNumbers.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_6_usingADoWhileLoop.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_5_usingAWhileLoop.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/simpleForLoop.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_2_listingContentsOfArrayWithForLoop.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_4_outputPropertyNamesAndDocsOfObjectWithForIn.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_3_loopingThroughTheDocumentWithFor...In.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/ifConditionBasicSyntax.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/ifAgeSyntax.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/ifTimeSyntaxElseSpaceIf.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/if...elseShorthand.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/switchStatementSyntax.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch6/listing6_1_usingASwitchStatement.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/stringOperator.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/logicalOperators.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/usingParentheses.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/operatorPrecedence.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch5/ExpressYourselfOperands.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/arrays.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/ShoppingListArrayFromGrace.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/people.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/arrays.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/listing_4_3.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/listing 4_3.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/listing 4_1.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/listing 4_2.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch4/multidimensional array 4_2.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch3/movies.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch3/movies.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch3/moreNumbers.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch3/numbers.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch3/addtwo.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/home.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Listing 2_1.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Listing 2-2.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/js/countToTen.js",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch1_Ch2/home.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch1_Ch2/Listing 2-2.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/Ch1_Ch2/Listing 2_1.html",
+		"/C/Users/Joanne/Documents/CODING/JS_4_DUMDUMS/total-js-project/countToTen.js",
+		"/C/Users/Joanne/Documents/CODING/JAVASCRIPT/DUMMIES - 1.html",
+		"/C/Users/Joanne/Documents/CODING/JAVASCRIPT/DUMMIES - 1"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "listing10_9_removingAnElementFromDocument.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
