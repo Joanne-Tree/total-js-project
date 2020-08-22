@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Javascript slideshow</title>
+
+        <style>
+            #carousel {
+                position: absolute;
+                width: 800px;
+                height: 400px;
+                top: 100px;
+                left: 100px;
+                display: hidden; 
+            }
+
+        </style>
+        <script>
+            var slides = [
+                "<div id='slide1'>my first slide<br><img src='image1.jpg'></div>",
+                "<div id='slide2'>my second slide<br><img src='image2.jpg'></div>",
+                "<div id='slide3'>my third slide<br><img src='image3.jpg'></div>"];
+
+                    // above code from book is not good
+
+            var currentSlide = 0;
+            var numberOfSlides = slides.length-1;
+
+            window.addEventListener("load", loader, false);
+
+            function loader(){
+                changeImage();
+            }
+
+            function changeImage (){
+                console.log("changeImage function");
+                if (currentSlide > numberOfSlides){
+                    currentSlide = 0;
+                }
+
+                document.getElementById("carousel").
+                innerHTML=slides[currentSlide];
+
+                console.log('displaying slide' + currentSlide +
+                 "of" + numberOfSlides);
+                 currentSlide ++;
+
+                 setTimeout(changeImage, 1000);
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="carousel"></div>
+        </body>
+</html>

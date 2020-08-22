@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Rollover image</title>
+        <script>
+
+            function swapImage(imgToSwap){
+                imgToSwap.src = "button2.png";
+                imgToSwap.alt = "You're mousing over my button!";
+            }
+            function swapBack(imgToSwap){
+                imgToSwap.src = "button1.png";
+                imgToSwap.alt = "mouse over me!";
+            }
+        </script>
+    </head>
+    <body>
+        <img src="button1.png" id="myButton"
+        onmouseover="swapImage(this);"
+        onmouseout="swapBack(this);" alt="mouse over me!">
+    </body>
+</html>
