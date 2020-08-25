@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Looking for Javascript</title>
+        <script>
+            window.addEventListener("load", registerEvents, false);
+
+            function registerEvents(e){
+                document.getElementById("ask")
+            .    addEventListener("click", findAnswer, false);
+            }
+
+            function findAnswer(){
+                // get the user's question
+                var question = document.getElementById("userQuestion").value;
+                /* create a new regular expression object that will look for an
+                exact match of the string "Javascript". */
+                var re = new RegExp("Javascript");
+
+                // if "Javascript" is found in the user's question
+                if (re.test(question)===true){
+
+                    // print out an answer.
+                    document.getElementById("answer").innerHTML = 
+                    "Javascript Question? Check out Coding with Javascript For Dummies by Chris Minnick and Eva Holland";
+                // and yell "Javascript!" in the console.
+                console.log("Javascript!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form id="userInput">
+            <label>Enter your question: 
+                <textarea id="userQuestion"/>
+            </label>
+            <button id="ask" type="button">Get An Answer</button>
+        </form>
+        <div id="answer"/>
+    </body>
+</html>
