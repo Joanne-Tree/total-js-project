@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Letter Counting Game</title>
+        <script>
+            window.addEventListener('load', loader, false);
+
+            // get a random letter
+            var letter = String.fromCharCode(97 + Math.floor(Math.random() * 26));
+
+            /* Create a regular expression using the letter. Set 
+            the g option to find all occurences. */
+            var re = new RegExp(letter, 'g');
+
+            function loader(e){
+                document.getElementById("getText").addEventListener(
+                    'submit', countLetter, false);
+            }
+
+            function countLetter(e){
+                e.preventDefault();
+                document.getElementById("results").innerHTML = 
+                "The secret letter was " + letter + ".";
+                var userText = document.getElementById("userWords").value;
+                var matches = userText.match(re);
+                if (matches) {
+                    var count = matches.length;
+                } else {
+                    var count = 0;
+                }
+                document.getElementById("results").innerHTML +=
+                "You typed the secret letter " + count + " times.";
+            }
+        </script>
+    </head>
+    <body>
+        <form id="getText">
+            <p>I'm thinking of a letter! Type a sentence, and then I'll tell
+                you how many times your sentence uses my secret letter!
+            </p>
+            <input type="text" name="userWords" id="userWords">
+            <input type="submit" name="submit">
+        </form>
+        <div id="results"></div>
+    </body>
+</html>
